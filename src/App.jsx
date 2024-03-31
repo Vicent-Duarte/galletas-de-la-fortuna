@@ -16,7 +16,7 @@ function App  () {
 
 
   const objStyles = {
-    backgroundImage: `url(../public/Fortuna-2/fondo${image}.png)`,
+    backgroundImage: `url(../Fortuna-2/fondo${image}.png)`,
   }
 
   return (
