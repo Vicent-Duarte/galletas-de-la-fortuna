@@ -1,0 +1,69 @@
+*, 
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  display: inline-block;
+  font-family: inherit;
+}
+
+/*style*/
+
+.app {
+  /* background-image: url(./img/fondo1.png); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 100vh;
+}
+
+.app__title {
+  width: 250px;
+  text-align: ;
+  text-shadow: 2px 2px #F28773,
+                2px -2px #F28773,
+                -2px 2px #F28773,
+                -2px -2px #F28773;
+}
+
+.text {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text p {
+  text-align: center;
+  background-color: rgba(56, 56, 56, 0.616);
+  padding: 7px 14px;
+  border-radius: 7px;
+}
+
+.btn {
+  background-color: #F28773;
+  padding: 7px 14px;
+  border-radius: 7px;
+  transition: transform .5s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  transform: transform .5s;
+}
