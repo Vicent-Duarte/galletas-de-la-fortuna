@@ -5,4 +5,4 @@ const getRandom = (arr) => {
   return arr[index]
 }
 
-export default getRandom
+export default getRandom;

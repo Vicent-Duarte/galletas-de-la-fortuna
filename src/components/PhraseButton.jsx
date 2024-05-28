@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 import arrayPhrases from '../utils/phrases.json';
 import getRandom from '../services/getRandom';
-import arrayImages from '../utils/images.json'
+import arrayImages from '../utils/images.json';
 
 const PhraseButton = ({setPhrase, setImage}) => {
 
@@ -15,4 +15,4 @@ const PhraseButton = ({setPhrase, setImage}) => {
   )
 }
 
-export default PhraseButton
+export default PhraseButton;

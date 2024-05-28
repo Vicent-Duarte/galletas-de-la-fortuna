@@ -1,12 +1,15 @@
-import React from 'react'
+import React from 'react';
 
-const ShowPhrase = ({phrase}) => {
+const ShowPhrase = ({randomPhrase}) => {
+
+  const {phrase, author} = randomPhrase
+
   return (
     <div className='text'>
-        <p>{phrase.phrase}</p>
-        <p>{phrase.author}</p>
+        <p>{phrase}</p>
+        <p>{author}</p>
     </div>
   )
 }
 
-export default ShowPhrase
+export default ShowPhrase;
